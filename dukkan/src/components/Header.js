@@ -5,9 +5,9 @@ import KeyboardArrowDownIcon from '@mui/icons-material/KeyboardArrowDown';
 
 const Header = () => {
   return (
-    <div className="flex justify-between p-4 items-center border border-b-slate-300 rounded-lg">
+    <div className="flex justify-between p-2 items-center border border-b-slate-300 rounded-lg bg-white">
       <div className="flex gap-4 items-center">
-        <span>Payments</span>
+        <span className="text-sm font-semibold">Payments</span>
         <div className="flex items-center ">
           <button className="text-slate-400">
             <HelpOutlineIcon fontSize="small" />
@@ -17,11 +17,11 @@ const Header = () => {
       </div>
 
       <div className="w-96">
-        <div className="relative flex items-center w-full h-12 rounded-lg  bg-gray-200 overflow-hidden">
+        <div className="relative flex items-center w-full h-8 rounded-lg  bg-gray-200 overflow-hidden">
           <div className="grid place-items-center h-full w-12 text-gray-500">
             <svg
               xmlns="http://www.w3.org/2000/svg"
-              class="h-6 w-6"
+              class="h-4 w-4"
               fill="none"
               viewBox="0 0 24 24"
               stroke="currentColor"
@@ -44,8 +44,8 @@ const Header = () => {
       </div>
 
       <div className="flex gap-2">
-       <button className="bg-slate-200 rounded-full p-2"><CampaignIcon/></button>
-       <button className="bg-slate-200 rounded-full p-2"><KeyboardArrowDownIcon/></button>
+       <button className="bg-slate-200 rounded-full p-1.5"><CampaignIcon fontSize="small"/></button>
+       <button className="bg-slate-200 rounded-full p-1.5"><KeyboardArrowDownIcon fontSize="small"/></button>
       </div>
 
     </div>

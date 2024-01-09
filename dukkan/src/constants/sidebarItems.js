@@ -16,72 +16,72 @@ export const SIDEBAR_ITEMS = [
 		key: 'home',
 		label: 'Home',
 		path: '/',
-		icon: <HomeIcon />
+		icon: <HomeIcon fontSize='small' />
 	},
 	{
 		key: 'orders',
 		label: 'Orders',
 		path: '/orders',
-		icon: <BookmarkBorderIcon/>
+		icon: <BookmarkBorderIcon fontSize='small'/>
 	},
 	{
 		key: 'products',
 		label: 'Products',
 		path: '/products',
-		icon: <BorderAllIcon/>
+		icon: <BorderAllIcon fontSize='small'/>
 	},
 	{
 		key: 'delivery',
 		label: 'Delivery',
 		path: '/delivery',
-		icon: <LocalShippingIcon/>
+		icon: <LocalShippingIcon fontSize='small'/>
 	},
 	{
 		key: 'marketing',
 		label: 'Marketing',
 		path: '/marketing',
-		icon: <CampaignIcon/>
+		icon: <CampaignIcon fontSize='small'/>
 	},
 	{
 		key: 'analytics',
 		label: 'Analytics',
 		path: '/analytics',
-		icon: <SignalCellularAltIcon/>
+		icon: <SignalCellularAltIcon fontSize='small'/>
 	},
     {
 		key: 'payments',
 		label: 'Payments',
 		path: '/payments',
-		icon: <PaymentsIcon/>
+		icon: <PaymentsIcon fontSize='small'/>
 	},
 	{
 		key: 'tools',
 		label: 'Tools',
 		path: '/tools',
-		icon: <NearMeIcon />
+		icon: <NearMeIcon fontSize='small' />
 	},
 	{
 		key: 'discounts',
 		label: 'Discounts',
 		path: '/discounts',
-		icon: <DiscountIcon/>
+		icon: <DiscountIcon fontSize='small'/>
 	},
 	{
 		key: 'audience',
 		label: 'Audience',
 		path: '/audience',
-		icon: <PeopleIcon/>
+		icon: <PeopleIcon fontSize='small'/>
 	},
 	{
 		key: 'appearance',
 		label: 'Appearance',
 		path: '/appearance',
-		icon: <PaletteIcon/>
+		icon: <PaletteIcon fontSize='small'/>
 	},
 	{
 		key: 'plugins',
 		label: 'Plugins',
 		path: '/plugins',
-		icon: <BoltIcon/>
+		icon: <BoltIcon fontSize='small'/>
 	}
 ]
